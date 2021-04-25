@@ -82,8 +82,11 @@
     border-radius: 50%;
     background-color: rgba(201, 45, 45, 0.9);
 }
-#my-name-header:hover{
+#my-name-header{
     transition: 0.3s;
     color: darkmagenta;
-    
+    transition: transform 0.2s;
+}
+#my-name-header:hover{
+    transform: scale(1.3);
 }
