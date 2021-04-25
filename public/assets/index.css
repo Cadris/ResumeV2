@@ -32,8 +32,8 @@
 .card2{
     /* position: relative; */
     position: absolute;
-    width: 280px;
-    height: 400px;
+    width: 500px;
+    height: 200px;
     margin: 30px;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
@@ -54,7 +54,7 @@
     right: 200px;
 }
 .left .card2{    
-    top: 100px;
+    top: 175px;
     left: 100px;
     padding: 30px;
     text-align: center;
@@ -81,4 +81,9 @@
     width: 50px;
     border-radius: 50%;
     background-color: rgba(201, 45, 45, 0.9);
+}
+#my-name-header:hover{
+    transition: 0.3s;
+    color: darkmagenta;
+    
 }
