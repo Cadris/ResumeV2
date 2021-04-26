@@ -4,8 +4,7 @@
     box-sizing: border-box;
     font-family: 'Berlin Sans FB';    
 }
-.headder{
-    height: 100vh;
+.headder{    
     width: 100%;
     background-color: rgb(42, 139, 204);
     /* display: flex;
@@ -54,22 +53,22 @@
     right: 200px;
 }
 .left .card2{    
-    top: 175px;
+    top: 100px;
     left: 100px;
     padding: 30px;
     text-align: center;
 }
 .right .card2{
-    top: 159px;
+    top: 100px;
     right: 100px;
-    background-image: url('./images/Cadris\ Silver.jpg');
+    background-image: url('../images/Cadris\ Silver.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50px 130px;
     background-size: cover;
     border: 10px solid white;
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
 }
 
@@ -84,9 +83,16 @@
 }
 #my-name-header{
     transition: 0.3s;
-    color: darkmagenta;
+    color: rgb(213, 19, 213);
     transition: transform 0.2s;
 }
 #my-name-header:hover{
-    transform: scale(1.3);
+    transform: scale(1.3);        
+}
+
+#my-resume{
+    color: #ffffff;
+    font-size: 50px;
+    position: relative;
+    top: 20px;
 }

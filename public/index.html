@@ -5,17 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sayan Dasgupta</title>
-    <link rel="stylesheet" href="./assets/index.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
 </head>
 <body>
-    <div class="headder">
-        <center style="color: #ffffff; font-size: 50px;">
+    <div class="headder" id="vanta-element">
+        <center style="color: #ffffff; font-size: 50px;" id="my-resume">
             My Resume
         </center>
         <div class="circle"></div>
         <div class="left">
             <div class="card2">
-                Hey Reader,<br> I am <span id="my-name-header">Sayan Dasgupta</span>
+                Hey Reader,<br> I am <span id="my-name-header" onmouseover="changeColour('my-name-header')">Sayan Dasgupta</span>
             </div>
         </div>
         <div class="right">
@@ -24,14 +24,12 @@
             </div>
         </div>
     </div>
-    <script src="./assets/vanilla-tilt.js"></script>
-    <script>
-        VanillaTilt.init(document.querySelectorAll(".card2"),{
-		max: 15,
-		speed: 400,
-        glare: true,       // if it should have a "glare" effect
-        "max-glare": 0.5      // the maximum "glare" opacity (1 = 100%, 0.5 = 50%)
-	});
-    </script>
+
+    <!-- All scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./assets/js/vanilla-tilt.js"></script>
+    <script src="./assets/js/three.min.js"></script>
+    <script src="./assets/js/vanta.birds.min.js"></script>
+    <script src="./assets/js/index.js"></script>
 </body>
 </html>
