@@ -116,6 +116,10 @@ body{
     border-radius: 5px;
     background-color: #ff9728;
     margin-top: 17px;
+    transition: transform 0.2s;
+}
+.heading-box:hover{
+    transform: scale(1.5);
 }
 .container-fluid{
     padding: 0;
@@ -147,4 +151,16 @@ body{
     height: 350px;
     width: 350px;
     border-radius: 5px;
+}
+.small-line{
+    width: 60px;
+    height: 5px;
+    background-color: #00ffa6d0;
+    border-radius: 50px;
+    margin-top: 10px;
+    transition: transform 0.2s;
+}
+.small-line:hover{
+    transform: scale(1.5);
+    background-color: #00c07dd0;
 }
