@@ -164,3 +164,23 @@ body{
     transform: scale(1.5);
     background-color: #00c07dd0;
 }
+.skills-icons{   
+    font-size: 80px;
+    /* background-color: red; Debug Code*/
+    padding: 30px;    
+}
+.orange:hover{
+    color: #ff6600;
+    transition: 0.2s;
+}
+.blue:hover{
+    color: #1a66ff;
+    transition: 0.2s;
+}
+.yellow:hover{
+    color: #d9e443;
+    transition: 0.2s;
+}
+.green:hover{
+    color: rgb(13, 146, 40);
+}
