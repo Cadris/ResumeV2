@@ -74,11 +74,11 @@ font-family: 'Rubik', sans-serif; */
 .right .card2{
     top: 100px;
     right: 100px;
-    background-image: url('../images/Cadris\ Silver.jpg');
+    /* background-image: url('../images/Sayan\ Dasgupta.jpg'); */
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 50px 130px;
-    background-size: cover;
+    /* background-position: 50px 130px;
+    background-size: cover; */
     border: 10px solid white;
     height: 200px;
     width: 200px;
