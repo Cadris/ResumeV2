@@ -300,3 +300,19 @@ body{
         bottom: 100%;
     }
 }
+.project-card{    
+    height: 150px;
+    width: 150px;
+    /* background-color: red; */
+    border-radius: 10px;
+}
+.offset-5 {
+    margin-left: 31.666667%;
+    margin-top: 15px;
+    width: 382px;
+}
+
+.project-card img{
+    height: 100px;
+    width: 100px;
+}
