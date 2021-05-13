@@ -8,8 +8,15 @@ VanillaTilt.init(document.querySelectorAll(".card2"),{
 VanillaTilt.init(document.querySelectorAll(".image-banner"),{
     max: 15,
     speed: 400,
-    glare: true,       // if it should have a "glare" effect
-    "max-glare": 0.5      // the maximum "glare" opacity (1 = 100%, 0.5 = 50%)    
+    glare: true,       
+    "max-glare": 0.5   
+});
+
+VanillaTilt.init(document.querySelectorAll(".card3"),{
+    max: 15,
+    speed: 400,
+    glare: true,       
+    "max-glare": 0.5   
 });
 
 VANTA.BIRDS({
