@@ -468,3 +468,12 @@ font-family: 'Rubik', sans-serif; */
 .pat:hover{
     opacity: 1;
 }
+.footer{
+    bottom:0%;
+    margin-top: 50px;
+    background-color: rgb(206, 206, 206);
+    padding: 30px;
+    text-align: center;
+    color: rgb(89, 89, 89);
+    font-size: 20px;
+}
