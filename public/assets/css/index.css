@@ -458,3 +458,13 @@ font-family: 'Rubik', sans-serif; */
     
     color: #000;
 }
+.pat {
+    position: absolute;
+    top: 368px;
+    right: 12px;
+    font-size: 35px;
+    opacity: 0.2;
+}
+.pat:hover{
+    opacity: 1;
+}
